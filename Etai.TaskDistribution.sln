@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34219.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskDistribution.API", "TaskDistribution.API\TaskDistribution.API.csproj", "{ABBF1DC6-C4C7-4EF6-AD92-15AB9002169B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskDistribution.BLL", "TaskDistribution.BLL\TaskDistribution.BLL.csproj", "{305F0665-B6D7-414A-ACE0-294276D52384}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integrations", "Integrations", "{22226D6E-6AEE-46A6-A06D-BFA1A6671C70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Integration.Yandex.Maps", "Integration.Yandex.Maps\Integration.Yandex.Maps.csproj", "{3834F04B-3767-4608-923F-30035C3D3593}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{3CD6D098-E44E-47D9-92D6-9082BCDF1DC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integration.Google.Maps", "Integration.Google.Maps\Integration.Google.Maps.csproj", "{CF12F6AC-B97A-48EE-9E9E-654732FB4B0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABBF1DC6-C4C7-4EF6-AD92-15AB9002169B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBF1DC6-C4C7-4EF6-AD92-15AB9002169B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBF1DC6-C4C7-4EF6-AD92-15AB9002169B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBF1DC6-C4C7-4EF6-AD92-15AB9002169B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{305F0665-B6D7-414A-ACE0-294276D52384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305F0665-B6D7-414A-ACE0-294276D52384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305F0665-B6D7-414A-ACE0-294276D52384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305F0665-B6D7-414A-ACE0-294276D52384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3834F04B-3767-4608-923F-30035C3D3593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3834F04B-3767-4608-923F-30035C3D3593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3834F04B-3767-4608-923F-30035C3D3593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3834F04B-3767-4608-923F-30035C3D3593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD6D098-E44E-47D9-92D6-9082BCDF1DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD6D098-E44E-47D9-92D6-9082BCDF1DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD6D098-E44E-47D9-92D6-9082BCDF1DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD6D098-E44E-47D9-92D6-9082BCDF1DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF12F6AC-B97A-48EE-9E9E-654732FB4B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF12F6AC-B97A-48EE-9E9E-654732FB4B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF12F6AC-B97A-48EE-9E9E-654732FB4B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF12F6AC-B97A-48EE-9E9E-654732FB4B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3834F04B-3767-4608-923F-30035C3D3593} = {22226D6E-6AEE-46A6-A06D-BFA1A6671C70}
+		{CF12F6AC-B97A-48EE-9E9E-654732FB4B0F} = {22226D6E-6AEE-46A6-A06D-BFA1A6671C70}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {733C5540-4E93-458E-AACD-2A19D3686571}
+	EndGlobalSection
+EndGlobal

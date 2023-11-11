@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EtaiEcoSystem.PermissionsMachining" Version="1.0.0.1" />
+    <PackageReference Include="EtaiEcoSystem.SDK" Version="1.0.0" />
+    <PackageReference Include="ExcelDataReader" Version="3.6.0" />
+    <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
+    <PackageReference Include="FluentChanger.Json.Extension" Version="0.0.0.8" />
+    <PackageReference Include="MassTransit" Version="8.1.1" />
+    <PackageReference Include="MassTransit.Abstractions" Version="8.1.1" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\Integration.Google.Maps\Integration.Google.Maps.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EtaiEcoSystem.BaseInitializers">
+      <HintPath>Z:\nuget\dlls\EtaiEcoSystem.BaseInitializers.dll</HintPath>
+    </Reference>
+    <Reference Include="EtaiEcoSystem.Core">
+      <HintPath>Z:\nuget\dlls\EtaiEcoSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EtaiEcoSystem.Domain">
+      <HintPath>Z:\nuget\dlls\EtaiEcoSystem.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="EtaiEcoSystem.EventBus">
+      <HintPath>Z:\nuget\dlls\EtaiEcoSystem.EventBus.dll</HintPath>
+    </Reference>
+    <Reference Include="EtaiEcoSystem.FluentChanger">
+      <HintPath>Z:\nuget\dlls\EtaiEcoSystem.FluentChanger.dll</HintPath>
+    </Reference>
+    <Reference Include="EtaiEcoSystem.Notification.Shell">
+      <HintPath>Z:\nuget\dlls\EtaiEcoSystem.Notification.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="EtaiEcoSystem.PermissionsMachining">
+      <HintPath>Z:\nuget\dlls\EtaiEcoSystem.PermissionsMachining.dll</HintPath>
+    </Reference>
+    <Reference Include="EtaiEcoSystem.RedisCache">
+      <HintPath>Z:\nuget\dlls\EtaiEcoSystem.RedisCache.dll</HintPath>
+    </Reference>
+    <Reference Include="Linq2Db.DomainDAL">
+      <HintPath>Z:\nuget\dlls\Linq2Db.DomainDAL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
